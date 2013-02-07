@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives
+END
+Triple.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Triple.java
+END
+Pixel.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/JavaRaytracer/!svn/ver/6/Raytracer/src/primitives/Pixel.java
+END
+Eye.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Eye.java
+END
+Vector.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Vector.java
+END
+Hit.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/JavaRaytracer/!svn/ver/14/Raytracer/src/primitives/Hit.java
+END
+Light.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Light.java
+END
+Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Point.java
+END
+Color.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Color.java
+END
+Material.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/JavaRaytracer/!svn/ver/16/Raytracer/src/primitives/Material.java
+END

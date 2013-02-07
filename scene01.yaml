@@ -1,0 +1,130 @@
+---
+ # Example scene based on scene01.yaml included with the cpp_framework
+
+
+image:
+    width: 400
+    height: 400
+    rendermode: phong
+
+eye:
+    location:
+      x: 200
+      y: 200
+      z: 1000
+    upvector:
+      x: 0
+      y: 1
+      z: 0
+    gridcenter:
+      x: 200
+      y: 200
+      z: 0
+
+lights:
+  - !primitives.Light
+    location:
+      x: -200
+      y: 600
+      z: 1500
+    color:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+
+elements: 
+  - !elements.Sphere
+    location:
+      x: 90
+      y: 320
+      z: 100
+    radius: 50
+    material:
+      color:
+        x: 0
+        y: 0
+        z: 1
+      ka: 0.2
+      kd: 0.7
+      ks: 0.5
+      n: 64
+  - !elements.Sphere
+    location:
+      x: 210
+      y: 270
+      z: 300
+    radius: 50
+    material:
+      color:
+        x: 0
+        y: 1
+        z: 0
+      ka: 0.2
+      kd: 0.3
+      ks: 0.5
+      n: 8
+  - !elements.Plane
+    location:
+      x: 0
+      y: 0
+      z: 500
+    normal:
+      x: 0
+      y: 1
+      z: 0
+    material:
+      color:
+        x: 1
+        y: 0
+        z: 0
+      ka: 0.2
+      kd: 0.7
+      ks: 0.8
+      n: 32
+  - !elements.Sphere
+    location:
+      x: 290
+      y: 170
+      z: 150
+    radius: 50
+    material:
+      color:
+        x: 1
+        y: 0
+        z: 0
+      ka: 0.2
+      kd: 0.7
+      ks: 0.8
+      n: 32
+  - !elements.Sphere
+    location:
+      x: 140
+      y: 220
+      z: 400
+    radius: 50
+    material:
+      color:
+        x: 1
+        y: 0.8
+        z: 0
+      ka: 0.2
+      kd: 0.8
+      ks: 0.0
+      n: 1
+  - !elements.Sphere
+    location:
+      x: 110
+      y: 130
+      z: 200
+    radius: 50
+    material:
+      color:
+        x: 1
+        y: 0.5
+        z: 0
+      ka: 0.2
+      kd: 0.8
+      ks: 0.5
+      n: 32
+
+

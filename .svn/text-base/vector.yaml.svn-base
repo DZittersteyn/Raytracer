@@ -1,0 +1,6 @@
+test: 
+  - bla: 
+    - aargh: 1
+  - abc:
+    - pizza: 2
+ 
